@@ -1,0 +1,144 @@
+body{
+    background-color: black;
+}
+img{
+    display: block;
+    position: relative;
+    top: 150px;
+    margin: auto;
+    border-radius: 10px;
+}
+img:hover{
+    cursor: pointer;
+}
+#text1{
+    position: relative;
+    top: -300px;
+    left: 200px;
+    color: yellow;
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#text2{
+    position: relative;
+    top: -300px;
+    left: 280px;
+    color: rgb(187, 29, 187);
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#box1{
+    display: block;
+    position: absolute;
+    top: 200px;
+    height: 200px;
+    width: 500px;
+    border-radius: 5px;
+    background-color: rgb(145, 136, 136);
+    z-index: 1;
+}
+#in1, #in2{
+    display: block;
+    padding: 2px;
+    position: absolute;
+    top: 80px;
+    left: 110px;
+    font-size: 18px;
+    justify-content: center;
+    background-color: rgb(185, 190, 194);
+    border-style: none;
+    border-radius: 3px;
+    color: black;
+}
+#in1{
+    border-style: groove;
+    border-color: black;
+}
+#in2{
+    border-radius: 5px;
+    border-style: groove;
+    top: 80px;
+    left: 330px;
+}
+h3{
+    position: absolute;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    left: 150px;
+    top: -15px;
+    font-size: 30px;
+    color: rgb(133, 185, 231);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#in1::placeholder{
+    text-align: center;
+    color: rgb(66, 60, 60);
+}
+#im{
+    position:absolute;
+    z-index: 2;
+    top: 335px;
+    left: 200px;
+}
+#wrap1{
+    display: flexbox;
+    position: absolute;
+}
+#in2:hover{
+    cursor: pointer;
+}
+#logo1{
+    display: block;
+    position: absolute;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: white;
+    border-width: 2px;
+    box-sizing: border-box;
+    left: 850px;
+    top: 280px;
+    padding: 4px;
+}
+#logo2{
+    display: block;
+    position: absolute;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: white;
+    border-width: 2px;
+    box-sizing: border-box;
+    left: 950px;
+    top: 280px;
+    padding: 4px;
+}
+
+#logo3{
+    display: block;
+    position: absolute;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: white;
+    border-width: 2px;
+    box-sizing: border-box;
+    left: 1050px;
+    top: 280px;
+    padding: 4px;
+}
+#logo4{
+    display: block;
+    position: absolute;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: white;
+    border-width: 2px;
+    box-sizing: border-box;
+    left: 1150px;
+    top: 280px;
+    padding: 4px;
+}
+
+#wrap2{
+    display: flexbox;
+    position: absolute;
+    top: 10px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">  
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="stylesoindex.css">
+        <title>Website</title>
+    </head>
+    <body>
+        <img src="dino.png" height="70" width="50" id="im">
+        <img src="me.png" alt="human" height="250" width="250" onclick="alert('Nope')">
+        <div id="wrap1"><h1><span id="text1">Greetings</span><span id="text2">Fella!</span></h1></div>
+        <div id="box1">
+
+            <h3>Greet Me!</h3>
+
+            <form id="greetForm">
+                <input id="in1" type="text" placeholder="Enter your name" required>
+                <input id="in2" type="submit" value="Submit">
+            </form>
+
+        </div>
+
+
+        <div id="wrap2">
+        <img id="logo1" src="dc.png" height="70" width="70">
+        <img id="logo2" src="git.png" height="70" width="70">
+        <img id="logo3" src="ln.png" height="70" width="70">
+        <img id="logo4" src="gm.png" height="70" width="70">
+        </div>
+
+        <script>
+            document.getElementById('greetForm').addEventListener('submit', function(event) {
+                event.preventDefault(); 
+                var name = document.getElementById('in1').value;
+                alert('Hello, ' + name + '!');
+            });
+        </script>
+    </body>
+</html>
